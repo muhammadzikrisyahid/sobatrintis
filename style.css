@@ -207,3 +207,10 @@ footer {
   border-radius: 12px;
   overflow: hidden;
 }
+
+.gallery-item img {
+  width: 100%;
+  height: 160px;          /* Atau ukuran tinggi seragam lain */
+  object-fit: cover;      /* Penting: Biar gambar tetap proporsional */
+  border-radius: 10px;
+}
